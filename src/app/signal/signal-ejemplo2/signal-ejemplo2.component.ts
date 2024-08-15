@@ -13,6 +13,6 @@ export default class SignalEjemplo2Component {
   contador = signal(0)
 
   constructor() {
-    setInterval( () => this.contador.set(this.contador() + 1 ), 1000); 
+    // setInterval( () => this.contador.set(this.contador() + 1 ), 1000); 
   }
 }
