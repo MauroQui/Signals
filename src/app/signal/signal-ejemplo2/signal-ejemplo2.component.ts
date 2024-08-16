@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
+import { interval } from 'rxjs';
 
 @Component({
   selector: 'app-signal-ejemplo2',
@@ -14,5 +15,6 @@ export default class SignalEjemplo2Component {
 
   constructor() {
     // setInterval( () => this.contador.set(this.contador() + 1 ), 1000); 
+   
   }
 }
